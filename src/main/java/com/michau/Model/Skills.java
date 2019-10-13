@@ -10,11 +10,13 @@ import javax.persistence.*;
 @Setter
 @NoArgsConstructor
 @Entity
+@Table(name = "skills")
 public class Skills {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(name = "name")
     private String name;
     @ManyToOne
-    private Sources sources;
+    private Sources source;
 }

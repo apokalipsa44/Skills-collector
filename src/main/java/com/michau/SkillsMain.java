@@ -1,29 +1,25 @@
 package com.michau;
 
-import com.michau.DbUtils.DbConnectionManager;
+import com.michau.DbUtils.UserDao;
 import com.michau.Model.User;
-import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
 
-import javax.persistence.EntityManager;
-import java.awt.*;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
-
-public class SkillsMain {
-    public static void main(String[] args) {
-        User user =new User();
-        user.setUserName("user1");
+@WebServlet(urlPatterns = "/gucio")
+public class SkillsMain extends HttpServlet {
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        SessionFactory sessionFactory= (SessionFactory) req.getServletContext().getAttribute("sessionFactory");
+        UserDao userDao=new UserDao(sessionFactory);
+        User user=new User();
+        user.setUserName("login");
         user.setPassword("pass");
-        DbConnectionManager connectionManager=new DbConnectionManager();
-        EntityManager entityManager=connectionManager.getEntityManagerFactory().createEntityManager();
-        entityManager.getTransaction().begin();
-        entityManager.persist(user);
-        entityManager.getTransaction().commit();
-        System.out.println("Person saved successfully");
-        entityManager.close();
-        connectionManager.shutdown();
-
-
+        userDao.save(user);
     }
 }

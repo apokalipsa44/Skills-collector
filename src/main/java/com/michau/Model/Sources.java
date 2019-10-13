@@ -11,12 +11,15 @@ import java.util.List;
 @Setter
 @NoArgsConstructor
 @Entity
+@Table(name = "sources")
 public class Sources {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(name = "name")
     private String name;
+    @Column(name = "description")
     private String description;
     @OneToMany
     private List<Skills> attachedSkills;
