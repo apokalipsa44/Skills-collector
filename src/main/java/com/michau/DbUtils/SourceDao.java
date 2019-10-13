@@ -1,6 +1,6 @@
 package com.michau.DbUtils;
 
-import com.michau.Model.Skills;
+
 import com.michau.Model.Sources;
 import org.hibernate.SessionFactory;
 
