@@ -7,24 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62d547e3-79fb-46e5-a55d-802917873163" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sql_script.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/SkillDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/SourceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michau/Listeners/HibernateInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michau/TestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/sql_script.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/55hibernate.cfg.kkk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillscollector.iml" beforeDir="false" afterPath="$PROJECT_DIR$/skillscollector.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/DbConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/BaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Model/Skills.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Model/Skills.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Model/Sources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Model/Sources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/SkillsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/SkillsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/SkillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/SkillDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/SourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/SourceDao.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570962427828</updated>
       <workItem from="1570962433481" duration="21000" />
-      <workItem from="1570962742430" duration="879000" />
+      <workItem from="1570962742430" duration="2842000" />
     </task>
     <servers />
   </component>
