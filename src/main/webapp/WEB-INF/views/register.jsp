@@ -1,13 +1,13 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@page isELIgnored="false" %>
+<%@ page isELIgnored="false" %>
 <html>
 
 <head>
     <title>Rejestracja użytkowanika</title>
 </head>
 <body>
-<jsp:include page="fragments/header.jsp" />
+<jsp:include page="fragments/header.jsp"/>
 
 
 <form method="post" action="${pageContext.request.contextPath}/register">
@@ -40,12 +40,16 @@
 </form>
 
 
-<c:if test="$request.getParameter('login')!=null">
-    <h3>Login <%= request.getParameter("login") %> is already taken.</h3>
-</c:if>
+<%--<c:if test="${empty request.getParameter('login')}">--%>
+<%--    <h3>Login <%= request.getParameter("login") %> is already taken.</h3>--%>
+<%--</c:if>--%>
 
-
-
+<%
+    String login=request.getParameter("login");
+    if(!(login ==null)){
+        out.println("Login "+login+" is  already taken.");
+    }
+%>
 
 
 <jsp:include page="fragments/footer.jsp"/>

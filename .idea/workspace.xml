@@ -7,21 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62d547e3-79fb-46e5-a55d-802917873163" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/SkillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/SkillDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/SourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/SourceDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Filter/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Filters/EncodingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Listeners/HibernateInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Listeners/HibernateInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Model/Skills.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Model/Skills.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Model/Sources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Model/Sources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/SkillsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/SkillsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Servlets/RegistrationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Servlets/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Servlets/RegistrationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,6 +161,7 @@
       <workItem from="1570962433481" duration="21000" />
       <workItem from="1570962742430" duration="11289000" />
       <workItem from="1571080855925" duration="5998000" />
+      <workItem from="1571087659557" duration="3225000" />
     </task>
     <servers />
   </component>
@@ -191,5 +180,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/michau/Servlets/RegistrationServlet.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

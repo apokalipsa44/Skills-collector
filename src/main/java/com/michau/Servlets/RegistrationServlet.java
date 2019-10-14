@@ -35,7 +35,8 @@ public class RegistrationServlet extends HttpServlet {
             resp.sendRedirect("/ee");
         }else {
 //            resp.sendRedirect("WEB-INF/views/register.jsp?login="+user.getUsername());
-            //todo https://stackoverflow.com/questions/7220241/whats-the-difference-between-requestdispatcher-forward-and-httpservletrespons/7220417
+//            todo https://stackoverflow.com/questions/7220241/whats-the-difference-between-requestdispatcher-forward-and-httpservletrespons/7220417
+
             System.out.println("jest w bazie");
             req.getRequestDispatcher("WEB-INF/views/register.jsp?login="+user.getUsername()).forward(req, resp);
         }
