@@ -4,6 +4,8 @@ package com.michau.DbUtils;
 import com.michau.Model.Sources;
 import org.hibernate.SessionFactory;
 
+import java.util.List;
+
 public class SourceDao extends BaseDao {
 
     protected SourceDao(SessionFactory sessionFactory) {
@@ -24,5 +26,18 @@ public class SourceDao extends BaseDao {
 
     public void delete(Sources source) {
         super.executeInTransaction(session -> session.delete(source));
+    }
+
+    public List<Sources> getAll() {
+        return super.produceInTransaction(
+                session -> session.createQuery("SELECT s FROM sources s", Sources.class)
+                        .getResultList());
+    }
+
+    public List<Sources> getAllBySourceName(String name) {
+        return super.produceInTransaction(
+                session -> session.createQuery("SELECT s FROM sources s WHERE s.name = :name", Sources.class)
+                        .setParameter("name", name)
+                        .getResultList());
     }
 }

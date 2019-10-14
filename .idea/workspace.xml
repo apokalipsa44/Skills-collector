@@ -2,20 +2,39 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="unnamed" />
+      <artifact name="skills-collector:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62d547e3-79fb-46e5-a55d-802917873163" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragments/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/SkillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/SkillDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/SourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/DbUtils/SourceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Filter/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Filters/EncodingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Listeners/HibernateInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Listeners/HibernateInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Model/Skills.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Model/Skills.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Model/Sources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Model/Sources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/SkillsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/SkillsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Servlets/RegistrationServlet.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,12 +54,25 @@
     </option>
   </component>
   <component name="ProjectId" id="1S94M68Wdq8zZGBZ11nLVhzSGfd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.1920956" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\m_lac\OneDrive\Dokumenty\skillscollector\src\main" />
+      <recent name="C:\Users\m_lac\OneDrive\Dokumenty\skillscollector\src\main\webapp" />
+      <recent name="C:\Users\m_lac\OneDrive\Dokumenty\skillscollector\src\main\WEB-INF\views" />
+      <recent name="C:\Users\m_lac\OneDrive\Dokumenty\skillscollector\src\main\WEB-INF" />
+      <recent name="C:\Users\m_lac\OneDrive\Dokumenty\skillscollector\src\main\webapp\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,7 +90,7 @@
     <configuration name="Tomcat 9.0.261" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.261" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="unnamed">
+        <artifact name="skills-collector:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -123,7 +155,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="unnamed" />
+          <artifact name="skills-collector:war exploded" />
         </option>
       </method>
     </configuration>
@@ -139,7 +171,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570962427828</updated>
       <workItem from="1570962433481" duration="21000" />
-      <workItem from="1570962742430" duration="2842000" />
+      <workItem from="1570962742430" duration="11289000" />
+      <workItem from="1571080855925" duration="5998000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package com.michau.Filter;
+package com.michau.Filters;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

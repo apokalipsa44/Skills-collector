@@ -23,6 +23,6 @@ public class Sources {
     private String description;
     @OneToMany
     private List<Skills> attachedSkills;
-    @ManyToOne
-    private User user;
+    @ManyToMany
+    private List<User> user;
 }

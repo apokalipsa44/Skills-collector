@@ -18,7 +18,7 @@ public class SkillsMain extends HttpServlet {
         SessionFactory sessionFactory= (SessionFactory) req.getServletContext().getAttribute("sessionFactory");
         UserDao userDao=new UserDao(sessionFactory);
         User user=new User();
-        user.setUserName("login");
+        user.setUsername("login");
         user.setPassword("pass");
         userDao.save(user);
     }
