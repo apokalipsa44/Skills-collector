@@ -6,6 +6,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -21,8 +22,8 @@ public class Sources {
     private String name;
     @Column(name = "description")
     private String description;
-    @OneToMany
-    private List<Skills> attachedSkills;
     @ManyToMany
-    private List<User> user;
+    private Set<Skills> attachedSkills;
+    @ManyToMany
+    private Set<User> user;
 }

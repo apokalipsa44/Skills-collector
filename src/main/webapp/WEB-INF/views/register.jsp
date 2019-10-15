@@ -45,11 +45,22 @@
 <%--</c:if>--%>
 
 <%
-    String login=request.getParameter("login");
-    if(!(login ==null)){
-        out.println("Login "+login+" is  already taken.");
+    String perametrized = request.getQueryString();
+    String name = request.getParameter("login");
+    String userNotFound = request.getParameter("userNotFound");
+
+    if (!(perametrized==null)&&userNotFound==null) {
+        out.println("Login " + name + " is  already taken.");
+    }
+
+    if (!(perametrized==null)&&userNotFound.equalsIgnoreCase("yes")) {
+        out.println("Login " + name + " not found in database. Please register!");
     }
 %>
+
+<%--<c:if test="${param.login == null}">--%>
+<%--    <h1>nie ma parametru</h1>--%>
+<%--</c:if>--%>
 
 
 <jsp:include page="fragments/footer.jsp"/>

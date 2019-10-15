@@ -7,6 +7,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -27,6 +28,6 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
     @ManyToMany
-    private List<Sources> knownSources;
+    private Set<Sources> knownSources;
 
 }
