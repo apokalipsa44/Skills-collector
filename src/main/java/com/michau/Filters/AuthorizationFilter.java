@@ -17,12 +17,12 @@ public class AuthorizationFilter extends HttpFilter {
         if (isUnprotectedResource(servletPath)) {
             chain.doFilter(req, res);
         }
-        else if (isProtectedResource(servletPath) &&
+         if (isProtectedResource(servletPath) &&
                 req.getSession().getAttribute("user") == null){
             res.sendRedirect("/login");
             chain.doFilter(req, res);
         }
-        else if(isProtectedResource(servletPath)&&req.getSession().getAttribute("user")!=null) {
+         if(isProtectedResource(servletPath)&&req.getSession().getAttribute("user")!=null) {
             chain.doFilter(req, res);
         }else {
             res.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
