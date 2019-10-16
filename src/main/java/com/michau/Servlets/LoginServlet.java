@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
@@ -34,6 +35,14 @@ public class LoginServlet extends HttpServlet {
             req.getRequestDispatcher("WEB-INF/views/login.jsp?login=" + req.getParameter("login")).forward(req, resp);
         } else {
             System.out.println("zalogowany");
+            User user=users.get(0);
+//            unieważnij bieżącą sesję,
+//            pobierz nową sesję (metoda getSession(true)),
+//            dodaj do sesji obiekt User pod atrybutem user,
+//            wykonaj zewnętrzne przekierowanie na ścieżkę /user/skills.
+            req.getSession().invalidate();
+            HttpSession httpSession=req.getSession(true);
+            httpSession.setAttribute("user", user);
             resp.sendRedirect("/user/skills");
         }
     }

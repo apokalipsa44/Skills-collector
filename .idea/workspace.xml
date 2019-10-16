@@ -6,16 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62d547e3-79fb-46e5-a55d-802917873163" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/michau/Servlets/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Model/Skills.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Model/Skills.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Model/Sources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Model/Sources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/michau/Servlets/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michau/Servlets/RegistrationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="62d547e3-79fb-46e5-a55d-802917873163" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +160,7 @@
       <workItem from="1571080855925" duration="5998000" />
       <workItem from="1571087659557" duration="4180000" />
       <workItem from="1571092005895" duration="1769000" />
-      <workItem from="1571173147553" duration="5580000" />
+      <workItem from="1571173147553" duration="6236000" />
     </task>
     <servers />
   </component>
